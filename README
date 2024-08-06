@@ -1,1 +1,8 @@
+Real-Time Audio Packet Analyzer
+This repository contains a Python application for real-time audio analysis. The software captures audio input, processes it, and analyzes specific signals or frequencies. 
+It can operate in different modes based on network commands.
 
+Features
+Real-Time Audio Capture: Utilizes a ring buffer to handle continuous audio data from input devices.
+Signal Processing: Applies windowing, filtering, and convolution to identify significant frequencies in the audio stream.
+Mode Management: Supports different operational modes (uplink and downlink) that can be controlled via a network connection.
